@@ -1,0 +1,146 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" ref="//fonts.googleapis.com/css?family=Raleway">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Data Analysis</title>
+</head>
+
+<body>
+    <!--Nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <span class="navbar-text barcolor">
+          Fullwin Liang
+        </span>
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link barcolor" href="index.html">Home Page <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link barcolor" href="mailto:fullwinliang@gmail.com">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid", id ="jumbodb">
+      <div class="container">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 class="display-4 jumboworddb">Databases</h1>
+        <p class="lead, jumboworddb">This is a collection of my Database projects</p>
+      </div>
+    </div>
+  <!-- Caurosel-->
+
+  <div class="container my-4">
+
+    <hr class="my-4">
+
+    <!--Carousel Wrapper-->
+    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+      <!--Controls-->
+      <div class="controls-top">
+        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+        <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+      </div>
+      <!--/.Controls-->
+      <br>
+      <br>
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+        <li data-target="#multi-item-example" data-slide-to="1"></li>
+        <li data-target="#multi-item-example" data-slide-to="2"></li>
+      </ol>
+      <!--/.Indicators-->
+
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+
+        <!--First slide-->
+        <div class="carousel-item active">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <img class="card-img-top" src="Physical Model.png"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Analytical SQL</h4>
+                  <p class="card-text description">In this project, I utilized SQL to create ad-hoc queries from an Oracle Cloud ATP Database. Then I utilized excel to create a pivot table to aggregate values such as total revenue. Lastly, I utilized tableau desktop to create dashboards and data visualizations.</p>
+                  <a href = "Analytical_SQL.html" class="gradient-button gradient-button-4">View</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="etl.png"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">ETL</h4>
+                  <p class="card-text description">In this project, I utilized Pentaho Data Integration to perform ETL on the data. I did this to transition an OLTP to an OLAP for deep history analytical queries that enables concurrecy control. Then I extracted an SQL View with Oracle SQLDeveloper to display KPI in my BI tool. </p>
+                  <a href ="ETL.html" class="gradient-button gradient-button-4">View</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="coming-soon.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Coming Soon</h4>
+                  <p class="card-text">...</p>
+                  <a href = "" class = "gradient-button gradient-button-4">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--/.First slide-->
+
+        
+      </div>
+      <!--/.Slides-->
+
+    </div>
+    <!--/.Carousel Wrapper-->
+
+
+  </div>
+  
+   <!--Footer-->
+  <div class="footer card-footer bg-transparent" style="margin-top:180px;padding-bottom:0;">
+    <a href="https://www.linkedin.com/in/fullwin-liang-93887b168/"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <p style ="text-align: center;"> © 2020 Fullwin Liang </p>
+  </div>
+
+    
+
+
+  <!--Bootstrap libraries-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/ff4d0dec36.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+      
+</body>
+</html>
