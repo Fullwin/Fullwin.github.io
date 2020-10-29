@@ -134,7 +134,7 @@ html {
 .jumboword{
     color: white;
     display: block;
-    max-width:400px;
+    max-width: max-content;
     margin: 15px auto;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.3);
@@ -149,7 +149,7 @@ html {
 .jumboworddb{
     color: white;
     display: block;
-    max-width:400px;
+    max-width: max-content;
     margin: 15px auto;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.3);
@@ -159,8 +159,6 @@ html {
     line-height: auto;
     text-align: center;
 }
-
-
 
 
 /* Caurosel */
@@ -187,4 +185,39 @@ html {
 
 .card-text{
     height: 150px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+/* Typewriter for database and analysis page */
+.typewriter {
+  border-right: solid 3px black;
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: "Kotta One", serif;  
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+  margin: 0 auto;
+}
+
+
+/* Animation */
+.typewriter {
+  animation: animated-text 4s steps(29,end) 0s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 472px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color:orange}
+  to{border-right-color: transparent;}
 }
