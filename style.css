@@ -138,9 +138,10 @@ html {
     margin: 15px auto;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.3);
-    color: #e1e1e1;
+    color: white;
     font-family: "Kotta One", serif;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 550;
     line-height: auto;
     text-align: center;
 }
@@ -153,9 +154,10 @@ html {
     margin: 15px auto;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.3);
-    color: #e1e1e1;
+    color: white;
     font-family: "Kotta One", serif;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 550px;
     line-height: auto;
     text-align: center;
 }
@@ -197,7 +199,7 @@ html {
   overflow: hidden;    
   font-family: "Kotta One", serif;  
   font-size: 28px;
-  color: rgba(255,255,255,.70);
+  color: white;
   margin: 0 auto;
 }
 
