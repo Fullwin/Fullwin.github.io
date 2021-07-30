@@ -223,3 +223,26 @@ html {
   from{border-right-color:orange}
   to{border-right-color: transparent;}
 }
+
+/* certification design */
+
+
+li img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+.certlist {
+  padding: 20px;
+  overflow: auto;
+}
+
+.certhr{
+    width:50%;text-align:left;margin-left:125px;
+}
+
+#h1cert{
+     background: #1ea377; color: #ffffff; display: inline-block; font-family: 'Lato', sans-serif; font-size: 16px; 
+     font-weight: bold; line-height: 12px; letter-spacing: 1px; margin: 0 0 30px; padding: 10px 15px 8px; margin-left: 60px;
+     text-transform: uppercase;
+}
