@@ -227,12 +227,6 @@ html {
 
 /* certification design */
 
-
-li img {
-  float: left;
-  margin: 0 15px 0 0;
-}
-
 .certlist {
   padding: 20px;
   overflow: auto;
@@ -246,4 +240,260 @@ li img {
      background: #1ea377; color: #ffffff; display: inline-block; font-family: 'Lato', sans-serif; font-size: 16px; 
      font-weight: bold; line-height: 12px; letter-spacing: 1px; margin: 0 0 30px; padding: 10px 15px 8px; margin-left: 60px;
      text-transform: uppercase;
+}
+
+/* Work Experience Section */
+.experiencelist {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.experiencelist > img {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  margin: 0;
+}
+
+.experience-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.experience-list {
+  list-style: none;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.role-title {
+  color: #666;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.experience-date {
+  color: #888;
+  font-size: 13px;
+  margin: 5px 0;
+  font-style: italic;
+}
+
+/* Client Logos Styling */
+.clients-label {
+  font-weight: 600;
+  color: #333;
+  font-size: 13px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.clients-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.client-logo {
+  height: 60px;
+  width: auto;
+  max-width: 100px;
+  object-fit: contain;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.client-logo:hover {
+  opacity: 1;
+}
+
+/* Responsive Design for Work Experience */
+@media (max-width: 768px) {
+  .experiencelist {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .experiencelist > img {
+    margin-bottom: 10px;
+  }
+
+  .experience-content {
+    width: 100%;
+  }
+
+  .experience-list {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .certhr {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+
+  .clients-label {
+    margin-left: 0;
+  }
+
+  .clients-logos {
+    justify-content: center;
+    margin-left: 0;
+  }
+}
+
+/* Mobile Optimization for All Sections */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Hero Section */
+  .about-page {
+    height: auto;
+    min-height: 100vh;
+    background-attachment: scroll;
+    padding: 20px;
+  }
+
+  .firstpara {
+    max-width: 100%;
+    font-size: 14px;
+    padding: 15px;
+    margin: 10px 5px;
+  }
+
+  #profile {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* Navigation */
+  .barcolor {
+    font-size: 16px;
+  }
+
+  /* Projects Section */
+  #box {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .showcase-image {
+    height: 120px;
+    width: 120px;
+  }
+
+  .gradient-button {
+    width: 130px;
+    font-size: 11px;
+    padding: 12px;
+  }
+
+  /* Section Headers */
+  #h1cert {
+    font-size: 14px;
+    margin-left: 20px !important;
+    padding: 8px 12px 6px;
+    display: block;
+    margin-bottom: 20px !important;
+  }
+
+  /* Certifications Section */
+  .certlist {
+    padding: 15px;
+    overflow: visible;
+  }
+
+  .certhr {
+    width: 100% !important;
+    margin-left: 0 !important;
+    text-align: left !important;
+  }
+
+  .certlist h6 {
+    font-size: 15px;
+    margin-left: 0;
+  }
+
+  .certlist img {
+    float: none;
+    display: block;
+    margin: 0 auto 15px;
+  }
+
+  .description {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  /* Footer */
+  .fab {
+    font-size: 35px;
+  }
+
+  /* General spacing */
+  h4, h6 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+/* Extra Small Devices (< 576px) */
+@media (max-width: 576px) {
+  .about-page {
+    padding: 10px;
+  }
+
+  .firstpara {
+    font-size: 13px;
+    padding: 12px;
+  }
+
+  #profile {
+    width: 120px;
+    height: 120px;
+  }
+
+  #box {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .showcase-image {
+    height: 100px;
+    width: 100px;
+  }
+
+  .gradient-button {
+    width: 110px;
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  #h1cert {
+    font-size: 13px;
+    margin-left: 15px !important;
+  }
+
+  .certlist {
+    padding: 10px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+
+  .navbar-text {
+    font-size: 14px;
+  }
 }
