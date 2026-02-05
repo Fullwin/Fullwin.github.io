@@ -233,7 +233,10 @@ html {
 }
 
 .certhr{
-    width:50%;text-align:left;margin-left:125px;
+    width: 100%;
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #ddd;
 }
 
 #h1cert{
