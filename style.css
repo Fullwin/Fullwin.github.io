@@ -46,7 +46,7 @@ html {
 
 .about-page {
     height: 100vh;
-    background-image: url(nyc.jpg);
+    background-image: url(Database.jpg);
     /*background: rgb(218,250,255);
     background: linear-gradient(270deg, rgba(218,250,255,1) 0%, rgba(0,104,255,1) 94%);*/
     background-attachment: fixed;
