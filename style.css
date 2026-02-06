@@ -45,7 +45,7 @@ html {
 .gradient-button-4:hover { background-position: right center; }
 
 .about-page {
-    height: 80vh;
+    min-height: 80vh;
     background-image: url(jt.jpg);
     /*background: rgb(218,250,255);
     background: linear-gradient(270deg, rgba(218,250,255,1) 0%, rgba(0,104,255,1) 94%);*/
@@ -60,10 +60,13 @@ html {
 }
 
 @media (max-width: 768px) {
-    .about-page {
-        background-attachment: scroll;
-        background-size: cover;
-    }
+  .about-page {
+    min-height: 100vh;         /* or 90vh */
+    height: auto;
+    padding: 80px 16px 24px;   /* top padding helps if you have a navbar */
+    background-attachment: scroll;
+    background-size: cover;
+  }
 }
 
 .firstpara {
