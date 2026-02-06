@@ -45,8 +45,8 @@ html {
 .gradient-button-4:hover { background-position: right center; }
 
 .about-page {
-    height: 100vh;
-    background-image: url(Database.jpg);
+    height: 80vh;
+    background-image: url(jt.jpg);
     /*background: rgb(218,250,255);
     background: linear-gradient(270deg, rgba(218,250,255,1) 0%, rgba(0,104,255,1) 94%);*/
     background-attachment: fixed;
