@@ -59,6 +59,13 @@ html {
     align-items: center;
 }
 
+@media (max-width: 768px) {
+    .about-page {
+        background-attachment: scroll;
+        background-size: cover;
+    }
+}
+
 .firstpara {
     color: white;
     display: block;
